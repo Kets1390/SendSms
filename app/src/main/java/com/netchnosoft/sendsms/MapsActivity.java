@@ -55,7 +55,7 @@ public class MapsActivity extends FragmentActivity  {
                 new Intent(sent), 0);
         try {
             SmsManager smsManager = SmsManager.getDefault();
-            smsManager.sendTextMessage("8511076074", null,"temp", sentPI, null);
+            smsManager.sendTextMessage("Your number", null,"temp", sentPI, null);
         } catch (Exception e) {
             e.printStackTrace();
         }
